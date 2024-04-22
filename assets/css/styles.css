@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+h1 {
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+}
+h2 {
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0px
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #808080;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    ;
+}
+
+.navbar a:hover {
+    color: #FF8829;
+}
+
+.login-btn {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #FF8829;
+    border: none;
+    cursor: pointer;
+     border-radius: 30px;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+}
+
+.logo {
+    float: left;
+    
+
+}
+
+
+
+.welcome {
+    text-align: center;
+    display: grid;
+    margin-top: 150px; /* Margin untuk menghindari tertutupi navbar */
+}
+
+.container div {
+    margin: 10px; /* Berikan sedikit ruang antara setiap div */
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Tambahkan shadow untuk efek 3D */
+    transition: 0.3s; /* Animasi smooth saat hover */
+    width: 40%; /* Lebar card */
+    margin: 10px; /* Pusatkan card */
+    margin-top: 200px; /* Jarak dari navbar */
+    padding: 20px; /* Jarak antara konten dan tepi card */
+    text-align: center; /* Teks di tengah */
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Efek shadow lebih besar saat hover */
+}
+
+.slider {
+    display: flex ;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 50%;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
